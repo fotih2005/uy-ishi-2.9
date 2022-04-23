@@ -1,0 +1,86 @@
+.why-choose-us {
+    padding-top: 100px;
+    padding-bottom: 317px;
+    margin-bottom: 350px;
+    background-color: #2C343E;
+    border-radius: 10px;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.why-choose-us__header {
+    text-align: center;
+    max-width: 540px;
+    margin: 0 auto;
+}
+.why-choose-us__heading {
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+}
+.why-choose-us__desc {
+    margin:0;
+    opacity: 0.8;
+}
+.why-choose-us__list {
+    position: absolute;
+    z-index: 1;
+    left: calc(50% - 550px);
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    bottom: -151px;
+    padding: 0;
+    list-style: none;
+}
+.why-choose-us__item {
+    width: 350px;
+    text-align: center;
+    padding: 72px 48px 48px 48px;
+    background-color: #0E8784;
+    border-radius: 8px;
+}
+
+.why-choose-us__item:not(:last-child){
+    margin-right: 30px;
+}
+.why-choose-us__item-heading {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+}
+.why-choose-us__item-heading::before{
+    display: block;
+    width: 72px;
+    margin-bottom: 50px;
+    height: 72px;
+    background-image: url(../../imges/gift.svg);
+    margin: 0 auto;
+    content: '';
+}
+.why-choose-us__item-desc {
+    margin: 0;
+}
+@media only screen and (max-width:700px) {
+    .why-choose-us__list{
+        display: block;
+        bottom: -600px;
+        left: calc(50% - 250px);
+    }
+    .why-choose-us__item{
+        &:not(:last-child){
+            margin-right: 0;
+            margin-bottom: 24px;
+        }
+        display: flex;
+        text-align: left;
+        width: 500px;
+    }
+}

@@ -1,0 +1,30 @@
+.Uncompromising {
+    margin-top: 200px;
+    margin-bottom: 168px;
+}
+.Uncompromising__wrapper {
+    display: flex;
+    position: relative;
+    padding: 88px 0 176px 85px;
+    border-radius: 10px;
+    color: #FEFCF7;
+    background-color: #2C343E;
+}
+.Uncompromising__content-wrapper {
+    width: 540px;
+}
+.Uncompromising__title {
+    margin: 0;
+    margin-bottom: 32px;
+    font-size: 40px;
+}
+.Uncompromising__text {
+    font-size: 16px;
+    margin: 0;
+}
+.Uncompromising__img {
+    position: absolute;
+    border-radius: 10px;
+    top: -100px;
+    left: calc(50% + 100px);
+}

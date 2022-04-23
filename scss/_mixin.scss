@@ -1,0 +1,20 @@
+@mixin listunstyled {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+@mixin link-settings {
+    display: inline-block;
+    text-decoration: none;
+    color: currentColor;
+}
+@mixin conteiner {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+@mixin keraksizlar  ($bottom: 30px){
+    margin: 0;
+    padding: 0;
+    margin-bottom: $bottom;
+}

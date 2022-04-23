@@ -1,0 +1,32 @@
+.header-section {
+    padding-top: 44px;
+    padding-bottom: 44px;
+    align-items: center;
+}
+.header-section__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.header-section__cards {
+    @include listunstyled;
+    display: flex;
+}
+.header-section__item:not(:last-child){
+    margin-right: 33px
+}
+.header-section__item-link {
+    @include link-settings;
+    text-transform: uppercase;
+    color:  #83888F;
+}
+.header-section__item-link:hover{
+    color: #000;
+}
+@media only screen and (max-width: 400px) {
+    .header-section{
+        padding: 46px 24px;
+    }
+    .header-section__cards{
+        display: none;
+    }
+}

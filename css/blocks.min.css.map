@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,EAAE",
+    "sources": [
+        "../scss/_blocks/blocks.scss"
+    ],
+    "names": [],
+    "file": "blocks.min.css"
+}

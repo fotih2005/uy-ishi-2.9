@@ -1,0 +1,32 @@
+.hero-section {
+    padding-bottom: 168px;
+}
+.hero-section__wrapper {
+    padding: 137px 0 137px 85px;
+    background-image: url(/imges/Object.jpg);
+    background-position: calc(50% + 1px);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-color: rgb(167, 167, 167);
+}
+.hero-section__content-wrapper {
+    width: 445px;
+    color: #fff;
+}
+.hero-section__title {
+    margin: 0;
+    margin-bottom: 24px;
+    padding: 0;
+    font-size: 40px;
+}
+.hero-section__content {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+@media only screen and (max-width: 700px) {
+    .hero-section__wrapper{
+        padding: 104px 0 104px 58px;
+        background-color: rgb(116, 116, 116);
+    }
+}

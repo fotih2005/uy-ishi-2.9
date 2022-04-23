@@ -1,0 +1,24 @@
+.site-hero__wrapper{
+    padding: 117px 0 116px 85px;
+    background-image: url(../../imges/hero-bg.jpg);
+    border-radius: 10px;
+}
+.site-hero__content {
+    width: 493px;
+    color: #fff ;
+}
+.site-hero__title {
+    font-size: 72px;
+    line-height: 65px;
+    @include keraksizlar(32px)
+}
+.site-hero__desc {
+    @include keraksizlar(56px)
+}
+@media only screen and (max-width: 700px) {
+    .site-hero__wrapper {
+        padding: 104px 0 104px 58px;
+        background-image: url(../../imges/bacground-tablet.jpg);
+        border-radius: 20px;
+    }
+}

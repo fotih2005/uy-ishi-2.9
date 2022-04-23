@@ -1,0 +1,45 @@
+.footer-section__wrapper {
+    display: flex;
+    background-color:   #2C343E;
+    justify-content: space-between;
+    padding: 47px 85px;
+}
+.footer-section__cards {
+    @include listunstyled;
+    display: flex;
+}
+.footer-section__item:not(:last-child){
+    margin-right: 33px;
+}
+.footer-section__item-link{
+    @include link-settings;
+    color: #83888F;
+}
+.footer-section__messenger-cards {
+    display: flex;
+    @include listunstyled;
+}
+.footer-section__messenger__item:not(:last-child){
+    margin-right: 24px;
+}
+.footer-section__messenger-img {
+    &:hover{
+        background-color: #FDD6BA;
+    }
+    display: block;
+}
+@media only screen and (max-width: 700px) {
+    .footer-section__wrapper{
+        display: block;
+        padding: 54px 150px ;
+        justify-content: center;
+    }
+    .footer-section__messenger-cards{
+        justify-content: center;
+    }
+    .footer-section__item{
+        &:not(:last-child){
+            margin-right: 33px;
+        }
+    }
+}

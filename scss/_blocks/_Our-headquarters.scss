@@ -1,0 +1,29 @@
+.Our-headquarters {
+    margin-bottom: 168px;
+}
+.Our-headquarters__title {
+    margin: 0;
+    margin-bottom: 70px;
+    margin-left: 100px;
+    color: #83888F;
+}
+.Our-headquarters__cards {
+    display: flex;
+    @include listunstyled;
+    justify-content: center;
+}
+.Our-headquarters__item {
+    width: 272px;
+}
+.Our-headquarters__item-img{
+    margin-bottom: 45px;
+}
+.Our-headquarters__item:not(:last-child){
+    margin-right: 108px;
+}
+.Our-headquarters__item-title {
+    margin: 0;
+    margin-bottom: 24px;
+    font-size: 32px;
+    color: #333D4B;
+}
